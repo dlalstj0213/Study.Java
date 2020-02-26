@@ -96,8 +96,8 @@ public class _01_JavaCafe {
 				break;
 			}else{
 				System.out.println('"'+"보기의 선택 중에 하나를 입력해주세요."+'"');
+				break;
 			}
-			break;
 		case 2 :
 			System.out.printf('"'+"관리자 비밀번호를 입력해주세요."+'"');
 			System.out.print("\n비밀번호 : ");
