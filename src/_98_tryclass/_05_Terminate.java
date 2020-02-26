@@ -35,5 +35,6 @@ public class _05_Terminate {
 //default :
 //	view.viewWrongInput();
 //	break;
+		return false;
 }
 }
