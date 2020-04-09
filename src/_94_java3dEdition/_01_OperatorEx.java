@@ -1,6 +1,6 @@
 package _94_java3dEdition;
 
-public class _01_ABC {
+public class _01_OperatorEx {
 
 	public static void PrefixPostfix() {
 		int i = 5, j = 0;

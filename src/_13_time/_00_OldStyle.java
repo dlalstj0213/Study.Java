@@ -51,6 +51,52 @@ public class _00_OldStyle {
 		//게다가 인터페이스 즉, 인스턴스화 못함. Calendar c = new Calendar();	(X)
 		//expressed in milliseconds after January 1, 1970, 0:00:00 GMT
 		Calendar c  = Calendar.getInstance();
-		
+		System.out.println(c.getTime());
+		c.set(Calendar.DAY_OF_WEEK, Calendar.SUNDAY);
+		System.out.println(c.getTime());
+		java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("y년 MM월 d일 E요일");
+		String result = sdf.format(c.getTime());
+		System.out.println(result);
+		/*
+		 * [인스턴스 생성]
+		 * getInstance() : Calendar return
+		 * getInstance(Locale aLocale)
+		 * getInstance(TimeZone zone)
+		 * getInstance(TimeZone zone, Locale aLocale)
+		 * 	여기서 잠깐!
+		 * 		Locale : 국가 ex) KOREA, UK...와 같은 국가 상수명
+		 * 		TimeZone : TimeZone.getTimeZone("America/Los_Angeles")
+		 * 			여기서 "America/Los_Angles"는 Zoneld이다.
+		 * 
+		 * [시간 정보 얻기]
+		 * getTime() --> Date는 long을 return하는데 이건 java.util.Date를 리턴한다.
+		 * getTimeInMills() --> long형의 timestamp를 리턴
+		 * getTimeZone()
+		 * 
+		 * [시간 설정하기]
+		 * set(int field, int value) 년, 월, 일 ... -> field
+		 * set(int year, int month, int date)
+		 * set(int y, int m, int d, int hourOfDay, int minute)
+		 * set(int y, int m, int d, int h, int m, int s)
+		 * setLenient(Boolean lenient)
+		 * setTime(Date date)
+		 * setTimeMillis(long millis)
+		 * setTimeZone(TimeZone value)
+		 * 	여기서 잠깐!
+		 * 		Lenient?? setLenient(false)를 하면 날짜 형식이 틀릴 경우 예외를 발생해준다.
+		 * 			-->즉, 날짜 형식 유효성 검사 모드를 전향한다. Lenient : 관대한
+		 * 
+		 * [시간 더하기]
+		 * add(int field, int amount)
+		 * 
+		 * [시간 비교하기]
+		 * after(Object when)
+		 * before(Object when)
+		 * compareTo(Calendar anotherCalendar)
+		 * 
+		 * [객체 언기]
+		 * toInstant()
+		 * toString()
+		 */
 	}
 }
