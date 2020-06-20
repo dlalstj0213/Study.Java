@@ -1,6 +1,5 @@
 package _97_exampleClass.repository;
 
-import java.util.Arrays;
 
 public class DB {
 	private String[] coffees = {"아메리카노", "카페 라떼", "에스프레소"}; //커피 종류

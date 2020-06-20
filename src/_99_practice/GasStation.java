@@ -1,5 +1,15 @@
 package _99_practice;
 
+class Car {
+	public int gas;
+}
+class Truck extends Car{
+}
+class Suv extends Car{
+}
+class Bus extends Car{
+}
+
 public class GasStation {
 //	public void fill(Suv suv) {
 //		System.out.println("Suv에 기름을 넣습니다");

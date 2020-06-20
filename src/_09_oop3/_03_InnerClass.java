@@ -16,7 +16,7 @@ class OuterClass{
 	/***인스턴스형 내부클래스***/
 	class InsInnerClass{
 		String innerInsStr = "인스턴스 변수";
-		//		static String innerStaStr = "클래스 변수" //Error
+//				static String innerStaStr = "클래스 변수" //Error
 
 		void innerInstanceMethod() {
 			System.out.println("인스턴스 메서드");

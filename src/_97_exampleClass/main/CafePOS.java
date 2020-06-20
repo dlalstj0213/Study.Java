@@ -10,6 +10,7 @@ public class CafePOS {
 	public static void main(String[] args) {
 		/**** Database ****/
 		DB db = DB.createDatabase();
+		//DB db1 = DB.createDatabase();
 
 		/**** config ****/
 		int choice = 0;

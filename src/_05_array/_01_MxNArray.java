@@ -43,7 +43,8 @@ public class _01_MxNArray {
 				System.out.println(iArr3[i][j]);
 			}
 		}
-	
+		System.out.println(iArr3);
+		System.out.println("===================");
 		//배열 출력하는 방법2 : Arrays클래스를 이용
 		System.out.println(Arrays.deepToString(iArr3));
 		/*

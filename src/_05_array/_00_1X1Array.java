@@ -24,7 +24,8 @@ public class _00_1X1Array {
 		for(int i = 0; i< iArr.length; i++) {
 			System.out.println((i+1)+"번째 배열 값 : "+ iArr[i]);
 		}
-
+		
+		System.out.println(iArr); //주소값 출력
 		//배열 출력하는 방법2 : Arrays클래스를 이용
 		String str = Arrays.toString(iArr);
 		System.out.println(str);
@@ -38,6 +39,8 @@ public class _00_1X1Array {
 				System.out.print(", ");
 			}
 		}System.out.println("]");
-
+		
+		//배열의 default값
+		// 정수(0), 실수(0.0), 불린(false), 참조형(null),
 	}//main
 }//class

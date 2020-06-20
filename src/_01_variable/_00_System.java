@@ -12,7 +12,7 @@ public class _00_System {
 // sysout을 쓰고 [ctrl+space]를 하면 자동완성이 된다.
 //	그 밖에 도움이 되는 단축키는 코드를 자동 정렬해주는 [ctrl + i] 가 있다
 //+코드 복사 단축키 : [ctrl+alt+↑↓]
-//+코드 이동 단축키 : [alt+↑↓]
+//+코드 이동 단축키 : [alt+↑↓]	
 		System.out.println("hello java world");//출력 가능
 		System.out.println("안"+"녕"+"하"+"세"+"요"); //문자끼리 합칠 때 +를 쓴다
 		System.out.println(20000);

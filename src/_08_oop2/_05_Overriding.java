@@ -11,9 +11,13 @@ public class _05_Overriding {
 		
 		//TEST:  부모 객체와 자식 객체의 주소값은 같을까?
 		SuperClass a = new SubClass();
-		SubClass b = (SubClass)a;
+		//SubClass b = (SubClass)a;
+		SuperClass b = new SuperClass();
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(a==b);
+		
+		SuperClass aa = new SuperClass();
+		aa.superClassMethod();
 	}
 }

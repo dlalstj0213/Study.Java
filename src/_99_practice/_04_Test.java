@@ -14,7 +14,5 @@ public class _04_Test {
 		return answer;
 	}
 	public static void main(String[] args) {
-		_04_Test test = new _04_Test();
-		System.out.println(test.solution(4));
 	}
 }

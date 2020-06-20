@@ -1,12 +1,17 @@
 package _09_oop3;
 
-interface LifeCycle{
+interface LifeCycle{ //abstract 생략, public 생략X, default 생략
+	//모든 멤버 변수는 상수이다. 그러므로 선언 초기화를 꼭 해줘야함.
 	//public static final String copyrighter = "RHIE";
-	String copyrighter = "RHIE";
-
+	String copyrighter = "RHIE"; //public static final 생략
+	
 	//public abstract void init();
-	void init();
-
+	void init(); // public abstract 생략
+	static void m2() { //static 메소드도 가능함 . 대신 {} 생략 불가능, public 생략 , 객체에게 공유 X, 
+		//인터페이스 이름으로만 접근 가능
+	}
+	default void m3() { //default 메소드도 가능함. 대신{}생략 불가능, public 생략
+	}
 	public abstract void config();
 
 	public abstract void run();

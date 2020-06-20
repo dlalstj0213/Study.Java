@@ -20,6 +20,13 @@ package _00_comment;
      \" : 큰 따옴표를 출력할때 사용
      \' : 작은 따옴표를 출력할때 사용
  */
-public class HowToComment {
 
+public class HowToComment {
+	public static void main(String[] args) {
+
+		System.out.println("\\"); 
+		System.out.println("Hello Java\r123");
+		System.out.println("Rhie\"\'");
+
+	}
 }

@@ -8,6 +8,7 @@ class Programmer extends Rob{}
 class Engineer extends Eddie{}
 
 public class _07_Polymorphism {
+	//polymorphism : 다형성
 	public static void main(String[] args) {
 		Person pObj = new Person();
 		//Businessman p1 = (Businessman)pObj; //Error
