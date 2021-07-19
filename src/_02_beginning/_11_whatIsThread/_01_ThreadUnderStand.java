@@ -1,4 +1,4 @@
-package _02_beginning._10_whatIsThread;
+package _02_beginning._11_whatIsThread;
 
 /*  Thread만드는 1번째 방법
  * 1) Thread 상속을 받는 클래스를 만든다

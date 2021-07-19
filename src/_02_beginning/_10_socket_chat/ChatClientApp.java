@@ -1,4 +1,4 @@
-package _02_beginning._09_socket_chat;
+package _02_beginning._10_socket_chat;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;

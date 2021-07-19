@@ -1,4 +1,4 @@
-package _02_beginning._10_whatIsThread;
+package _02_beginning._11_whatIsThread;
 
 /* 현재 이 프로그램은 3개의 쓰레드가 동작하고 있다.
  * 쓰레드에서는 Increment의 객체를 공유하고 있다

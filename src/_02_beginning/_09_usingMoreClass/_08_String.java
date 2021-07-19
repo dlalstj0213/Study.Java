@@ -1,4 +1,4 @@
-package _02_beginning._08_usingMoreClass;
+package _02_beginning._09_usingMoreClass;
 //java.lang.String
 public class _08_String {
 	public static void main(String[] args) {

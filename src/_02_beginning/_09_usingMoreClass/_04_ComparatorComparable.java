@@ -1,4 +1,4 @@
-package _02_beginning._08_usingMoreClass;
+package _02_beginning._09_usingMoreClass;
 
 //	배열이나 Collection 프레임워크 등에서 sort()를 사용하면 컴퓨터가 알아서 정렬을 해줌
 //	여기서 사용되는 sort()는 Comparable 구현에 의해 정렬된 것이다.

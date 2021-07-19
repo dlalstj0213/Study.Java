@@ -1,4 +1,4 @@
-package _02_beginning._09_socket_chat;
+package _02_beginning._10_socket_chat;
 import java.awt.BorderLayout;
 import java.awt.Button;
 import java.awt.Color;

@@ -1,4 +1,4 @@
-package _02_beginning._10_whatIsThread;
+package _02_beginning._11_whatIsThread;
 
 class Sum2{
 	int num;

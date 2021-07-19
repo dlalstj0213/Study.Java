@@ -1,4 +1,4 @@
-package _02_beginning._08_usingMoreClass;
+package _02_beginning._09_usingMoreClass;
 
 import java.io.BufferedReader;
 import java.io.IOException;

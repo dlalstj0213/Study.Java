@@ -1,4 +1,4 @@
-package _02_beginning._08_usingMoreClass;
+package _02_beginning._09_usingMoreClass;
 
 public class _05_Math {
 	public static void main(String[] args) {
