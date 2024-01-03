@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaBasic.iml" filepath="$PROJECT_DIR$/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Study.Java.iml" filepath="$PROJECT_DIR$/.idea/Study.Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_01_basic/_01_basic.iml" filepath="$PROJECT_DIR$/_01_basic/_01_basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_beginning/_02_beginning.iml" filepath="$PROJECT_DIR$/_02_beginning/_02_beginning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_intermediate/_03_intermediate.iml" filepath="$PROJECT_DIR$/_03_intermediate/_03_intermediate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_coding/_05_coding.iml" filepath="$PROJECT_DIR$/_05_coding/_05_coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_testSheet/_06_testSheet.iml" filepath="$PROJECT_DIR$/_06_testSheet/_06_testSheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_07_toy/_07_toy.iml" filepath="$PROJECT_DIR$/_07_toy/_07_toy.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,10 @@
+package _09_logging;
+
+public class LoggerTest {
+	public static void main(String[] args) {
+
+		MyLogger myLogger = MyLogger.getLogger();
+		
+		myLogger.log("log test");
+	}
+}
